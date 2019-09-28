@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <header>
+    <h1><span>asgard </span><span>hacks</span></h1>
+    <img id="logo" src="./img/logo.png" alt="">
+  </header>
+
+  <main>
+    <p class="overview">
+      Asgard Green is hacking Octoberfest. Come out Tuesday evenings to learn some coding, complete quests, and win free stuff.
+    </p>
+    <div class="ctaContainer">
+      <a data-fancybox href="#learnMore" class="learnMore">
+        learn more
+      </a>
+      <a data-fancybox href="#signUp" class="signUp">
+        sign up
+      </a>
+    </div>
+    <div class="modal" id="learnMore" style="display:none">
+      <h2>What is Asgard Hacks Anyways?</h2>
+      <p>
+        Asgard Hacks is an opportunity for people to participate in <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a>.
+      </p>
+      <p>
+        Hacktoberfest is a competition put on every year by GitHub inviting people to make 3 code contributions to any public project.
+        If, before the end of October, a person has made the 3 contributions (and signed up to the event beforehand)
+        GitHub will send you a Hacktoberfest t-shirt and a sticker pack for free!
+      </p>
+      <h2>Code Contributions Seems Hard</h2>
+      <p>
+        THe point of Asgard Hacks is to provide a comfortable entry point for everyone. There will be a set up
+        project to contribute to with "quests" of varying difficulty. The first session will also be an intro
+        session where we make sure everyone is signed up to the event and a workshop where we teach people about
+        git and how to contribute.
+      </p>
+      <p>
+        Experienced mentors will be there to help anyone struggling or who has questions. The goal is to learn
+        a bit about coding and to help people complete the event successfully.
+      </p>
+      <h2>When Is It?</h2>
+      <p>
+        Every Tuesday evening there will be coding sessions in the Asgard Green community Centre.
+      </p>
+      <h2>What Do I Need?</h2>
+      <p>
+        You will need to bring a computer. It doesn't matter how old or portable it is. Feel free to bring a desktop
+        if that's all you have, we'll get you set up.
+      </p>
+    </div>
+    <div class="modal" id="signUp" style="display:none">
+      <iframe id="signUpForm" src="https://docs.google.com/forms/d/e/1FAIpQLSe4QXHQDHLwU3KCn14jAPfAekgH5K75e4Jdby590LVkBQgVSQ/viewform?embedded=true" width="640" height="1306" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+  </main>
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
